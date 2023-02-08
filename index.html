@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@200&family=Silkscreen&family=Vollkorn+SC&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>WEB SESI 3</title>
+</head>
+
+<body>
+    <header class="animate__animated animate__faster animate__backInDown">
+        <div class="logo">
+            <img src="assets/icon/tasbeh.png" alt="" class="logo-img">
+            <h1 class="logo-title">ypams</h1>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="#jasa">Jasa</a></li>
+                <li> <a href="mailto:iqbaltech29@gmail.com">About</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow saya</button>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <p class="title animate__animated animate__faster animate__backInLeft">Hello, I'm Yohanes Pambudi</p>
+            <p class="description animate__animated animate__faster animate__backInRight">Just a Student with small brain capacity</p>
+            <img src="assets/photo/1.png" alt="Yohanes's Photo" class="img-photo animate__animated animate__delay-2s animate__backInUp">
+        </div>
+    </div>
+
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title animate__animated animate__delay-3s animate__bounce">Saya adalah Junior Mobile Programmer</p>
+            <p class="description animate__animated animate__delay-3s animate__bounceIn">Practice make best</p>
+            <div class="mt-10">
+                <button class="btn-cta animate__animated animate__delay-3s animate__swing" onclick="redirWhatsapp()">Invite Me</button>
+            </div>
+        </div>
+
+        <div class="container animate__animated animate__delay-4s animate__jello">
+            <div class="card" id="jasa">
+                <div class="card-item">
+                    <img src="assets/icon/24-hours.png" alt="segs1" class="icon">
+                    <p class="card-title">Pelayanan Fleksibel</p>
+                    <p class="card-description">Selalu siap ketika anda membuthkan jasa saya</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/icon/hot-deal.png" alt="segs2" class="icon">
+                    <p class="card-title">Jasa Paling Murah</p>
+                    <p class="card-description">Biaya jasa yang berikan pasti murah dan terjamin</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/icon/rating.png" alt="segs3" class="icon">
+                    <p class="card-title">47 Riview</p>
+                    <p class="card-description">Client cukup senang dengan hasil pekerjaan saya</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title animate__animated animate__delay-5s animate__fadeIn">&copy; yhnes_pmbudi 2023</p>
+    </footer>
+
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://instagram.com/jefe_gyu/"
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6285752668162"
+        }
+    </script>
+</body>
+
+</html>
